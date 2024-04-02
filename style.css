@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+head {
+    background-color: black;
+}
+section {
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    background-color: transparent;
+    min-height: 100vh;  
+    width: 100%;
+    background: url('background.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.form-box {
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background-color: transparent;
+    border: 3px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+}
+
+.form-box_two {
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background-color: transparent;
+    border: 3px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.inputbox {
+    position: relative;
+    margin: 30px 0;
+    width: 300px;
+    border-bottom: 2px solid #fff;
+}
+.inputbox_two {
+    position: relative;
+    margin: 30px 0;
+    width: 300px;
+    border-bottom: 2px solid #fff;
+}
+
+.inputbox label{
+    position: absolute;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+}
+.inputbox_two label{
+    position: absolute;
+    left: 5px;
+    transform: translateY(-80%);
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+}
+
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: #fff;
+}
+.inputbox_two input {
+    width: 100%;
+    height: 30px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: #fff;
+}
+
+.inputbox ion-icon {
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    top:20px;
+    cursor: pointer;
+}
+
+.inputbox_two ion-icon {
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    top: 1px;
+    cursor: pointer;
+}
+
+.forget {
+    margin: -15px 0 15px;
+    font-size: .9em;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.forget_two {
+    margin: -15px 0 15px;
+    font-size: .9em;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+
+.forget label input {
+    margin-right: 3px;
+}
+
+.forget label a{
+    color: #fff;
+    text-decoration: underline;
+    margin-left: 60px;
+
+}
+.forget_two label a{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.forget label a:hover{
+    text-decoration:none;
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    margin-top: 10px;
+
+}
+
+.register {
+    font-size: .9em;
+    color: #fff;
+    text-align: center;
+    margin: 30px 0 10px;
+}
+.register_two {
+    font-size: .9em;
+    color: #fff;
+    text-align: center;
+    margin: 20px 0 10px;
+}
+
+.register p a{
+    text-decoration: underline;
+    color: #fff;
+    font-weight: 700;
+    
+}
+.register_two p a{
+    text-decoration: underline;
+    color: #fff;
+    font-weight: 700;
+}
+.register p a:hover {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .form-box {
+        width: 90%;
+        height: auto; 
+        padding: 20px; 
+        backdrop-filter: blur(15px);
+    }
+    .form-box_two {
+        width: 90%;
+        height: auto; 
+        padding: 20px; 
+        backdrop-filter: blur(15px);
+    }
+    .inputbox {
+        width: 100%; 
+    }
+    .inputbox_two {
+        width: 100%; 
+    }
+
+    .inputbox input {
+        padding: 0 30px; 
+    }
+    .inputbox_two input {
+        padding: 0 30px; 
+    }
+
+    .inputbox ion-icon {
+        top: 10px;
+    }
+    .inputbox_two ion-icon {
+        top: 10px;
+    }
+
+    h2 {
+        padding-top: 20px; 
+    }
+
+    .forget {
+        flex-direction: column; 
+    }
+    .forget_two {
+        flex-direction: column; 
+    }
+
+    .forget label {
+        margin-bottom: 10px; 
+    }
+    .forget_two label {
+        margin-bottom: 10px; 
+    }
+
+    .register {
+        margin: 20px 0; 
+    }
+    .register_two {
+        margin: 20px 0; 
+    }
+}
+
+
+
+
